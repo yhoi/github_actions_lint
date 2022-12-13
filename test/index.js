@@ -10,7 +10,7 @@ describe("fizzbuzz", () => {
     assert(fizzbuzz(9) === "Fizz");
   });
 
-  it("returns Buzz when value is divisible by 5", () => {
+  it("returns Buzz when value is divisible by 5 ", () => {
     assert(fizzbuzz(10) === "Buzz");
   });
 
