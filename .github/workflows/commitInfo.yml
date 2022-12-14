@@ -1,0 +1,10 @@
+on:
+  push:
+jobs:
+  demo:
+    name: demo
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show github properties
+        run: |
+          echo ${{ toJson(github.event.commits) }}
