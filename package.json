@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "transfer": "node index.js"
+    "transfer": "node contract/index.js"
   },
   "license": "ISC",
   "devDependencies": {
