@@ -1,4 +1,5 @@
 const { ethers } = require("ethers");
+const { abi } = require('./abi.json')
 require('dotenv').config();
 
 const contractAddress = process.env.CONTRACT_ADDRESS
