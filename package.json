@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "test": "mocha"
+    "test": "mocha",
+    "transfer": "node index.js"
   },
   "license": "ISC",
   "devDependencies": {
@@ -12,5 +12,8 @@
     "eslint": "^8.29.0",
     "mocha": "^10.2.0",
     "prettier": "^2.8.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
   }
 }
