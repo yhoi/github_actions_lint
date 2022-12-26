@@ -1,3 +1,4 @@
+const { ethers } = require("ethers");
 require('dotenv').config();
 
 const contractAddress = process.env.CONTRACT_ADDRESS
