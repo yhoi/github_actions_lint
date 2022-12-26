@@ -12,11 +12,9 @@ const main = async () => {
     const provider = new ethers.providers.JsonRpcProvider(rpcUrl);
     const signer = new ethers.Wallet(secretKey,provider)
     const contract = new ethers.Contract(contractAddress,abi,signer)
-
     const tx = await contract.safeMint(to,tokenID,"",{gasLimit: 200000})
 
     console.log(tx.hash)
-
     return
 }
 
