@@ -1,2 +1,2 @@
-# github_actions_intro
-Github Actionsの入門を行うリポジトリ
+# github_actions_transfer_nft
+
